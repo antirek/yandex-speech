@@ -50,7 +50,7 @@ var YandexASR = function(options){
 
         var form = r.form();
         form.append('Content-Type', yandex_recognize_filetype);
-        form.append('audio', fs.createReadStream(path.join(__dirname, yandex_recognize_file)));            
+        form.append('audio', fs.createReadStream(yandex_recognize_file));
     }
 
     return {

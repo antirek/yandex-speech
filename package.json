@@ -16,12 +16,12 @@
     "type": "git",
     "url": "git://github.com/antirek/yandex-speech.git"
   },
-  "bugs": {
-    "url": "https://github.com/antirek/yandex-speech/issues"
-  },
   "keywords": [
     "yandex",
     "speech",
     "asr"
   ],
+  "bugs": {
+    "url": "https://github.com/antirek/yandex-speech/issues"
+  }
 }

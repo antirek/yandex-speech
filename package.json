@@ -1,7 +1,7 @@
 {
   "name": "yandex-speech",
   "version": "0.0.3",
-  "description": "nodejs module for yandex speech systems (ASR & TTS)",
+  "description": "node.js module for Yandex speech systems (ASR & TTS)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

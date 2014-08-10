@@ -6,6 +6,7 @@ node.js module for Yandex speech systems (ASR & TTS)
 ## Install
 ```javascript
 npm install yandex-speech --save
+
 ```
 
 ## Automatic Speech Recognition
@@ -13,27 +14,27 @@ npm install yandex-speech --save
 ```javascript
 var yandex_speech = require('yandex-speech');
 
-var ya = yandex_speech.ASR({
+yandex_speech.ASR({
     developer_key: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',    
     file: 'data/1.mp3',
-});
+	}, function(err, httpResponse, body){
+    	console.log(err, httpResponse.statusCode, body);
+	}
+);
 
-ya.recognize(function(err, httpResponse, body){
-    console.log(err, httpResponse.statusCode, body);
-});
 ```
 ## Text-To-Speech
 
 ```javascript
 var yandex_speech = require('yandex-speech');
 
-var ya2 = yandex_speech.TTS({
+yandex_speech.TTS({
 	text: 'Привет, мир!',
 	file: 'data/hello.mp3'
-});
-
-ya2.download(function(){
-	console.log('done');
-});
+	}, 
+	function(){
+		console.log('done');
+	}
+);
 
 ```

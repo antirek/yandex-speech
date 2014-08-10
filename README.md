@@ -31,8 +31,7 @@ var yandex_speech = require('yandex-speech');
 yandex_speech.TTS({
 	text: 'Привет, мир!',
 	file: 'data/hello.mp3'
-	}, 
-	function(){
+	}, function(){
 		console.log('done');
 	}
 );

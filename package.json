@@ -9,7 +9,6 @@
   "author": "Dmitriev Sergey <serge.dmitriev@gmail.com> (http://www.antirek.ru/)",
   "license": "MIT",
   "dependencies": {
-    "querystring": "^0.2.0",
     "request": "^2.40.0"
   },
   "repository": {
@@ -19,7 +18,8 @@
   "keywords": [
     "yandex",
     "speech",
-    "asr"
+    "asr",
+    "tts"
   ],
   "bugs": {
     "url": "https://github.com/antirek/yandex-speech/issues"

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dmitriev Sergey <serge.dmitriev@gmail.com> (http://www.antirek.ru/) ",
+  "author": "Dmitriev Sergey <serge.dmitriev@gmail.com> (http://www.antirek.ru/)",
   "license": "MIT",
   "dependencies": {
     "querystring": "^0.2.0",

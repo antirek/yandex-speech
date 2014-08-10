@@ -41,8 +41,11 @@ yandex_speech.ASR({
 );
 
 ```
+docs: http://api.yandex.ru/speechkit/cloud-api/doc/index.xml
 
-## Text-To-Speech
+
+## Text-To-Speech 
+(use unofficial api)
 
 ```javascript
 var yandex_speech = require('yandex-speech');
@@ -56,3 +59,5 @@ yandex_speech.TTS({
 );
 
 ```
+docs: http://habrahabr.ru/post/225179/#comment_7658675
+

@@ -10,6 +10,8 @@ npm install yandex-speech --save
 ```
 
 ## Automatic Speech Recognition (simple)
+Get API key: https://developer.tech.yandex.ru/
+docs: http://api.yandex.ru/speechkit/cloud-api/doc/index.xml
 
 ```javascript
 var yandex_speech = require('yandex-speech');
@@ -49,11 +51,12 @@ yandex_speech.ASR({
 );
 
 ```
-docs: http://api.yandex.ru/speechkit/cloud-api/doc/index.xml
+
 
 
 ## Text-To-Speech 
-(use unofficial api)
+(use unofficial api, api key not required)
+docs: http://habrahabr.ru/post/225179/#comment_7658675
 
 ```javascript
 var yandex_speech = require('yandex-speech');
@@ -67,5 +70,5 @@ yandex_speech.TTS({
 );
 
 ```
-docs: http://habrahabr.ru/post/225179/#comment_7658675
+
 

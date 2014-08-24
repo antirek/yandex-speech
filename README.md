@@ -75,4 +75,9 @@ yandex_speech.TTS({
 
 ```
 
+#Links
+- http://habrahabr.ru/post/232861/
+- http://clubs.ya.ru/speechkit/replies.xml?item_no=103
+
+
 

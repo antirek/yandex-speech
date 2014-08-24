@@ -1,6 +1,6 @@
 {
   "name": "yandex-speech",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "node.js module for Yandex speech systems (ASR & TTS)",
   "main": "index.js",
   "scripts": {

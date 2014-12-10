@@ -1,6 +1,6 @@
 {
   "name": "yandex-speech",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "node.js module for Yandex speech systems (ASR & TTS)",
   "main": "index.js",
   "scripts": {
@@ -30,5 +30,5 @@
     "url": "https://github.com/antirek/yandex-speech/issues"
   },
   "readmeFilename": "README.md",
-  "homepage": "https://github.com/antirek/yandex-speech",
+  "homepage": "https://github.com/antirek/yandex-speech"
 }

@@ -1,12 +1,14 @@
 var yandex_speech = require('../index');
 
 yandex_speech.ASR({
-    developer_key: '22d458e6-c881-4b92-b59c-b78e6f88c3e9',   
+    developer_key: '3b7b9fba-cbcd-47d1-854a-b359ca0e5da7',
     file: 'data/1.mp3',
-	}, function(err, httpResponse, xml){
-		if(err){
+    debug: true,
+    topic: 'queries'
+	}, function (err, httpResponse, xml) {
+		if (err) {
     		console.log(err);
-    	}else{
+    	} else {
     		console.log(httpResponse.statusCode, xml)
     	}
     }

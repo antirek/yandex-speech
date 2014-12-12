@@ -1,6 +1,6 @@
 {
   "name": "yandex-speech",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "node.js module for Yandex speech systems (ASR & TTS)",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "request": "^2.40.0",
-    "mime": "^1.2.11"
+    "node-uuid": "^1.4.2",
+    "request": "^2.40.0"
   },
   "repository": {
     "type": "git",

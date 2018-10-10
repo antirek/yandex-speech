@@ -79,13 +79,13 @@ yandex_speech.ASR({
 ## Text-To-Speech 
 
 ```javascript
-var yandex_speech = require('../index');
+const yandex_speech = require('yandex-speech');
 
 yandex_speech.TTS({
 	developer_key: '3b7b9fba-cbcd-47d1-854a-b359ca0e5da7',
 	text: 'Привет, мир!',
 	file: 'data/hello.mp3'
-}, function () {
+}, () => {
 	console.log('done');
 }
 );
@@ -93,8 +93,7 @@ yandex_speech.TTS({
 ```
 
 #Links
+- https://tech.yandex.ru/speechkit/cloud/doc/guide/common/speechkit-common-asr-http-request-docpage/
+- https://tech.yandex.ru/speechkit/cloud/doc/guide/common/speechkit-common-tts-http-request-docpage/
 - http://habrahabr.ru/post/232861/
 - http://clubs.ya.ru/speechkit/replies.xml?item_no=103
-
-
-
